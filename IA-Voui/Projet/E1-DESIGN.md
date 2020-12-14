@@ -19,6 +19,6 @@
 
  ![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/Le%20modèle%20de%20donnée%20stocké.png)
  
-## Le Stack Technique :
+## Le Stack Techniques :
 
 ![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/StackTechnique.png)
