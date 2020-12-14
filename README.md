@@ -43,10 +43,26 @@ Ensuite ouvrir votre navigateur internet et aller sur localhost:3000
 
 ## Présentation du projet :
 
+Lorsque nous allons sur localhost:3000, nous arrivons sur la page d'authentification. Ici nous pouvons rentrer un identifiant au hasard qui sera enregistré sur la base de donnée.
 
-Implémentez votre solution, votre code devra se trouver dans le dossier ```project/code```
+![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/PageAuthentification.png)
+
+Lorsque nous sommes connecté, nous arrivons sur la page où les vols sont affichés. Le bloc en bas à gauche correspond au vol que nous avons choisit mais que nous n'avons pas encore acheté et le bloc en bas à droite correspond à l'historique des achats de l'utilisateur.
+
+![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/ConnexionUserPROJETPROG.png)
 
 
-## Etpae 3
+Nous pouvons observer sur le bloc en bas à droite, le billet que nous avons acheté.
+![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/ACHATBILLET.png)
 
-Surprise !
+Ici, en changeant d'utilisateur, nous observons que le nombre de place de vol que nous avons acheté avec l'utilisateur PROJETPROG à bien été décrémenté.
+
+![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/DecrementationAutreUser.png)
+
+Voci un exemple d'achat complet et de l'affiche de l'historique même après changement de compte/ou actualisation.
+
+![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/VerificationAchatPLUSAjout.png)
+
+![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/ACHATCOMPLET.png)
+
+
