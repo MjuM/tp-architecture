@@ -1,0 +1,65 @@
+
+#login_form {
+    margin: 200px auto;
+    border :1px solid grey;
+    padding:0.2em;
+    width:400px;
+    overflow: hidden;
+}
+
+#airports {
+    display:flex;
+    justify-content: space-around;
+}
+
+.location  {
+    border: 1px solid black;
+    padding: 0.4em;
+    border-radius: 0.2em;
+    width: 27vw;
+}
+
+.vol {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0.3em;
+    border-radius: 0.2em;
+    margin: 5px 0px;
+    height: 3em;
+}
+
+
+
+#ajaxify {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cart,#payment {
+
+    border :1px solid black;
+    padding:0.4em;
+    width: 40vw;
+    height:20vh;
+    overflow: hidden;
+    overflow-y:scroll
+}
+
+.cart {
+    display:flex;
+    justify-content: space-between;
+}
+
+.reserved_flight{
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px;
+    width: 100%;
+    min-width:25vw;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 10px 0px;
+
+}
