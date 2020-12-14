@@ -1,68 +1,51 @@
 # TP Architecture Distribué
 
-Ce TP fonctionne par groupe de 4 ou 5. Voici les membres du projet:
-- DENIS Mathis
-- DUBOIS Adam
-- FERREIRA Luiz
-- MURUGANANTHAN Majuran
-- NGIN David
-- SOREAU Lohan
-
-Nous avons réalisé une solution, ultra simplifié de reservation de billet d'avion.
+Ce TP fonctionne par groupe de 4 ou 5.
+Nous allons réalisé une solution, ultra simplifié de reservation de billet d'avion.
 Nous gérons 3 aéroports:
 - New York qui porte le code JFK
 - CDG Paris qui porte le code CDG
 - Detroit qui porte le code DTW
 
+Tout les jours, des billets d'avions sont disponible.
+Un billet d'avion est consituté:
+- D'un code depart
+- D'un code destination
+- D'un prix (en Euros)
 
+__CDG-JFK 400__ represente donc un billet d'avion au départ de Paris et à destination de New York à 400 euros.
 
-## Prérequis :
+## Etape 0
 
-Installer MySQL
-Nous utilisons le terminal Ubuntu afin de lancer le projet. Si vous avez des erreurs en lançant MySQL, lancer Apache aussi.
+- Forker ce [repository](https://github.com/ESIEA-Distributed-Architecture/tp-architecture)
+- Ajouter les membres de votre groupe a ce repository pour les besoins de commit
+- Créer une branche qui porte le nom de la façon constituer de la façon suivante: {majeur-du-chef-promo}-{nom-de-votre-groupe}
+- __Créer un dossier qui porte le même nom, tout ce que vous allez créer, devra se trouver dans ce dossier.__
+- Creer le fichier MEMBERS.md, a l'interieur de ce fichier, rentrer le prénom et nom de chacune des personnes de votre groupe
+- Votre projet devra se trouver dans le dossier ```projet```
+- Faites une Pull Request entre votre branche ```{code-promo}-{nom-de-votre-groupe}``` et la branche ```main``` de ce [repository](https://github.com/ESIEA-Distributed-Architecture/tp-architecture)
 
+## Etape 1
 
-## Comment lancer le projet ?
+Designer ce systeme de reservation de billet d'avion.
 
-### Etape 1 :
+La solution doit permettre:
+- de permettre à un utilisateur de voir la liste des voles disponible
+- de reservations des billets d'avion 
+- de voir ce qu'il a reservé
 
-Se déplacer dans la racine du projet, c'est à dire dans le dossier code/
-Lancer la commande : sudo service mysql start 
-Ensuite lancer la commande : sudo mysql -uroot
+Vous présenterez votre design à tous, vous êtes attendu sur:
+- L'architecture globale
+- Le modele de donnée stocké
+- La stack technique
 
-### Etape 2 :
+Votre deisgn devra se trouver dans le fichier ```projet/E1-DESIGN.md```
 
-Dans le terminal MySql lancer la commande : source create-database.sql;
-Puis faire dans le même terminal : exit
+## Etape 2
 
-### Etape 3 :
+Implémentez votre solution, votre code devra se trouver dans le dossier ```project/code```
+Lorsque vous avez terminé, venez me voir pour la suite...
 
-Lancer dans le terminal la commande : sudo php -S localhost:3000
-Si jamais 3000 ne fonctionne pas, utiliser un autre port.
-Ensuite ouvrir votre navigateur internet et aller sur localhost:3000
+## Etpae 3
 
-## Présentation du projet :
-
-Lorsque nous allons sur localhost:3000, nous arrivons sur la page d'authentification. Ici nous pouvons rentrer un identifiant au hasard qui sera enregistré sur la base de donnée.
-
-![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/PageAuthentification.png)
-
-Lorsque nous sommes connecté, nous arrivons sur la page où les vols sont affichés. Le bloc en bas à gauche correspond au vol que nous avons choisit mais que nous n'avons pas encore acheté et le bloc en bas à droite correspond à l'historique des achats de l'utilisateur.
-
-![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/ConnexionUserPROJETPROG.png)
-
-
-Nous pouvons observer sur le bloc en bas à droite, le billet que nous avons acheté.
-![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/ACHATBILLET.png)
-
-Ici, en changeant d'utilisateur, nous observons que le nombre de place de vol que nous avons acheté avec l'utilisateur PROJETPROG à bien été décrémenté.
-
-![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/DecrementationAutreUser.png)
-
-Voci un exemple d'achat complet et de l'affiche de l'historique même après changement de compte/ou actualisation.
-
-![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/VerificationAchatPLUSAjout.png)
-
-![Image of Home](https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/ACHATCOMPLET.png)
-
-
+Surprise !
