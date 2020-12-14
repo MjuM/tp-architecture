@@ -21,4 +21,4 @@
  
 ## Le Stack Technique :
 
-![Image of Home]https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/StackTechnique.png
+![Image of Home] (https://github.com/MjuM/tp-architecture/blob/IA-Voui/IA-Voui/Projet/Pictures/StackTechnique.png)
